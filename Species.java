@@ -12,6 +12,7 @@
 public class Species implements Comparable<Species> {
 
   private String name;  /* String representation  */
+  private int mole_weigth; /* molecular weight, unit:
 
   /* Note that any reaction is treated as reversible, so there is
    * really no distinct between reactants and products. However, we

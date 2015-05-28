@@ -11,7 +11,7 @@
  **********************************************************/
 
 
-public class DSRgraph {
+ public class DSRgraph {
 
    private final boolean MESSAGE = true;
    private final boolean ALLOW_DUPLICATE_REACTION = true;
@@ -21,7 +21,7 @@ public class DSRgraph {
    private ST<String, Species> sDict;  /* String-Species dictionary */
    private ST<String, Reaction> rDict; /* String-Reaction dictionary */
  
-   private ST<Species, ST<Reaction, Double>> species;    /* contain all the species */
+   private ST<Species, ST<Reaction, Double>> species; /* contain all species */
    private SET<Reaction> reactions; /* contain all the reactions */
 
    /* create an empty DSRgraph */
